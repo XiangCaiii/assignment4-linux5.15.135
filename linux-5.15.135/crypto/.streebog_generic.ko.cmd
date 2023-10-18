@@ -1,0 +1,1 @@
+cmd_crypto/streebog_generic.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o crypto/streebog_generic.ko crypto/streebog_generic.o crypto/streebog_generic.mod.o;  true

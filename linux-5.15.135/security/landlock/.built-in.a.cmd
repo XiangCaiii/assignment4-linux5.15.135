@@ -1,0 +1,1 @@
+cmd_security/landlock/built-in.a := echo >/dev/null; rm -f security/landlock/built-in.a; ar cDPrST security/landlock/built-in.a security/landlock/setup.o security/landlock/syscalls.o security/landlock/object.o security/landlock/ruleset.o security/landlock/cred.o security/landlock/ptrace.o security/landlock/fs.o

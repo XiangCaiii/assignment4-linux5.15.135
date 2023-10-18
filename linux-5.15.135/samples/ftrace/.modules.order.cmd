@@ -1,0 +1,1 @@
+cmd_samples/ftrace/modules.order := {   echo samples/ftrace/ftrace-direct.ko;   echo samples/ftrace/ftrace-direct-too.ko;   echo samples/ftrace/ftrace-direct-modify.ko;   echo samples/ftrace/sample-trace-array.ko; :; } | awk '!x[$$0]++' - > samples/ftrace/modules.order

@@ -1,0 +1,1 @@
+cmd_crypto/asymmetric_keys/modules.order := {   echo crypto/asymmetric_keys/asym_tpm.ko;   echo crypto/asymmetric_keys/pkcs8_key_parser.ko;   echo crypto/asymmetric_keys/pkcs7_test_key.ko;   echo crypto/asymmetric_keys/tpm_key_parser.ko; :; } | awk '!x[$$0]++' - > crypto/asymmetric_keys/modules.order
